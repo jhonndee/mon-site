@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jhonnie — Création de sites (vitrine, freelance, resto, e-commerce)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img src="LOGO.jpg" alt="Logo Cédric Rakoto" class="logo">
+        <div>
+          <div style="font-weight:700">Jhonnie Fitiavana</div>
+          <div style="font-weight:700">WEB DESIGN TANA</div>
+          <div class="small">Création web • Madagascar</div>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="navigation">
+        <a href="index.html">Accueil</a>
+        <a href="vitrine.html">Vitrine</a>
+        <a href="freelance.html">Freelance</a>
+        <a href="restaurant.html">Resto/Hôtel</a>
+        <a href="ecommerce.html">E-commerce</a>
+      </nav>
+
+      <div style="display:flex;gap:.5rem;align-items:center">
+        <a class="cta" href="contact.html" style="display:inline-block">Me contacter</a>
+        <button class="menu-btn" onclick="toggleMenu()" aria-label="menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="#0b3d57" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+
+  <main class="page-container">
+    <div class="banner" style="background-image:linear-gradient(90deg, rgba(3,105,161,0.9), rgba(14,165,183,0.9)), url('https://images.unsplash.com/photo-1515165562835-c0af6f4ff00b?w=1400&q=80&auto=format&fit=crop');background-size:cover;background-position:center">
+      <h2 style="font-size:1.6rem;margin:0">E-commerce — Boutique en ligne</h2>
+    </div>
+
+    <div class="service-content" style="margin-top:1rem">
+      <div>
+        <h3>Vendre en ligne — simple et efficace</h3>
+        <p class="small">Création de fiches produit, panier, pages catégories et intégration paiements (ex : Stripe). Possibilité de gestion produit via CSV ou mini CMS selon besoin.</p>
+
+        <h4 style="margin-top:1rem">Points forts</h4>
+        <ul class="small">
+          <li>• Pages produit optimisées</li>
+          <li>• Processus de paiement sécurisé</li>
+          <li>• Gestion des stocks (option)</li>
+          <li>• Hébergement performant (Vercel) & SEO</li>
+        </ul>
+
+        <div style="margin-top:1rem">
+          <a class="cta" href="contact.html">Lancer ma boutique</a>
+          <a class="btn-outline" href="index.html" style="margin-left:.6rem">Retour</a>
+        </div>
+      </div>
+
+      <div>
+        <img src="data:image/jpeg;base64,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" alt="ecommerce">
+        <div style="margin-top:.8rem" class="small">Exemples : page produit, panier, checkout, intégration paiement.</div>
+      </div>
+    </div>
+  </main>
+  <main class="page-container">
+  <div class="full-width-section background-img" style="background-image:url('https://images.unsplash.com/photo-1515165562835-c0af6f4ff00b?w=1400&q=80&auto=format&fit=crop');">
+    <div class="content">
+      <h1 class="section-title">E-commerce — Boutique en ligne performante</h1>
+      <p class="section-subtitle">Vendez vos produits en ligne avec un site optimisé, design attractif et outils modernes pour booster vos ventes.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2 class="section-title">Pourquoi un site e-commerce ?</h2>
+    <p class="small">Un site e-commerce complet vous permet :</p>
+    <ul class="small">
+      <li>• De vendre vos produits en ligne facilement et rapidement.</li>
+      <li>• D’offrir une expérience client fluide et sécurisée.</li>
+      <li>• D’automatiser les messages et réponses grâce aux chatbots Messenger.</li>
+      <li>• D’optimiser le référencement et la visibilité de vos produits.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Fonctionnalités proposées</h2>
+    <ul class="small">
+      <li>• Pages produit optimisées avec description, images et variantes.</li>
+      <li>• Panier et paiement sécurisé (Stripe, PayPal, etc.).</li>
+      <li>• Chatbot Messenger intégré pour guider le client et répondre automatiquement.</li>
+      <li>• Gestion des stocks et commandes via mini-CMS ou CSV.</li>
+      <li>• Design responsive et SEO prêt à l’emploi.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Exemples et livrables</h2>
+    <div class="feature-card">
+      <img src="https://www.codeur.com/blog/wp-content/uploads/2018/06/cms-ecommerce-opencart.png" alt="ecommerce">
+      <div class="feature-content">
+        <p class="small">Site complet avec fiches produit, panier, paiement sécurisé, chatbot Messenger, responsive, design moderne et support continu.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="margin-top:1rem">
+    <a class="cta" href="contact.html">Lancer ma boutique en ligne</a>
+    <a class="btn-outline" href="index.html" style="margin-left:.6rem">Retour</a>
+  </div>
+</main>
+
+
+<script>function toggleMenu(){ const m = document.getElementById('mobileMenu'); if(m) m.style.display = (m.style.display === 'none' || !m.style.display) ? 'block' : 'none'; }</script>
+</body>
+</html>
