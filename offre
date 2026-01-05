@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebDesignTana - Offres</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    .offer-pack {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .offer-pack h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .offer-pack ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .offer-pack ul li::before {
+      content: "✔";
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #0d6efd;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #084298;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WebDesignTana - Des sites qui travaillent pour vous</h1>
+    <p>Création de sites professionnels, optimisés pour le SEO, avec contenu et maintenance inclus</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Pourquoi choisir WebDesignTana ?</h2>
+      <p>Un site internet n’est utile que s’il attire des visiteurs, inspire confiance et génère des contacts.  
+      Je crée des sites pour PME, artisans, associations et hôtels, qui sont :</p>
+      <ul>
+        <li>Optimisés pour un référencement naturel solide</li>
+        <li>Maintenus et mis à jour tout au long du contrat</li>
+        <li>Enrichis d’articles gratuits pour améliorer votre visibilité</li>
+        <li>Avec le nom de domaine offert pendant 2 ans</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nos offres</h2>
+
+      <div class="offer-pack">
+        <h3>PACK ESSENTIEL — Présence & crédibilité</h3>
+        <p>Pour artisans et associations qui veulent être visibles et crédibles en ligne.</p>
+        <ul>
+          <li>Site professionnel clair et responsive</li>
+          <li>SEO de base optimisé</li>
+          <li>Maintenance et mises à jour incluses</li>
+          <li>Nom de domaine offert 2 ans</li>
+        </ul>
+        <a href="mailto:contact@webdesigntana.vercel.app" class="cta-button">Me contacter</a>
+      </div>
+
+      <div class="offer-pack">
+        <h3>PACK CROISSANCE — Visibilité & trafic</h3>
+        <p>Pour PME et artisans ambitieux qui veulent attirer des clients régulièrement.</p>
+        <ul>
+          <li>Tout le pack Essentiel</li>
+          <li>SEO avancé (structure + contenu)</li>
+          <li>Articles rédigés gratuitement pour améliorer le référencement</li>
+          <li>Pages optimisées pour générer des contacts</li>
+        </ul>
+        <a href="mailto:contact@webdesigntana.vercel.app" class="cta-button">Me contacter</a>
+      </div>
+
+      <div class="offer-pack">
+        <h3>PACK PREMIUM — Performance & résultats</h3>
+        <p>Pour hôtels et PME structurées qui veulent que leur site devienne un levier de chiffre d’affaires.</p>
+        <ul>
+          <li>Tout le pack Croissance</li>
+          <li>SEO local renforcé</li>
+          <li>Contenus orientés conversion</li>
+          <li>Optimisation des demandes et réservations</li>
+          <li>Suivi et accompagnement stratégique</li>
+        </ul>
+        <a href="mailto:contact@webdesigntana.vercel.app" class="cta-button">Me contacter</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contactez-moi</h2>
+      <p>Vous souhaitez discuter de votre projet ou obtenir un avis gratuit sur votre site actuel ?  
+      Envoyez-moi un message et je vous répondrai rapidement.</p>
+      <a href="mailto:contact@webdesigntana.vercel.app" class="cta-button">Me contacter</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 WebDesignTana. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
